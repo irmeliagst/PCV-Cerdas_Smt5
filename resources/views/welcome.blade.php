@@ -18,7 +18,7 @@
         .text-center {
             text-align: center;
             font-family: 'Mochiy Pop One', sans-serif;
-            color: green;
+            color: rgb(255, 255, 255);;
             font-size: 36px;
         }
         .header {
@@ -34,7 +34,7 @@
             margin: 10px;
             border: none;
             border-radius: 5px;
-            background-color: #3498db;
+            background-color: #00ff00;
             color: #fff;
             font-size: 16px;
             cursor: pointer;
