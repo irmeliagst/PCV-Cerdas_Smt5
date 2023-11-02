@@ -38,10 +38,7 @@
             color: #fff;
             font-size: 16px;
             cursor: pointer;
-        }
-        .black-text {
-            color: black;
-        }
+      
     </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap">
 </head>
