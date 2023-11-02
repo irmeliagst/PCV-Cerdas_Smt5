@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/mobil.jpg'); /* Sesuaikan path dengan lokasi gambar */
+    background-size: cover;
+}
+/* Menggunakan Font TTF dalam CSS */
+@font-face {
+    font-family: 'Mochiy Pop One';
+    src: url('font/MochiyPopOne.ttf') format('truetype'); /* Sesuaikan path dan format font */
+}
+
+/* Mengaplikasikan font pada teks tertentu */
+.teks-mochiypop {
+    font-family: 'Mochiy Pop One';
+    font-size: 80px; /* Atur ukuran font */
+    color: green; /* Atur warna font */
+}
+
+.container {
+    text-align: center;
+    z-index: 1; /* Untuk memastikan konten di atas latar belakang */
+}
+
+.top-button, .bottom-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.top-button {
+    position: absolute;
+    top: 50px;
+}
+
+.bottom-button {
+    position: absolute;
+    bottom: 50px;
+}
