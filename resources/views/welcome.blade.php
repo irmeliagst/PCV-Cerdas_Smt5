@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Angka</title>
+    <title>Pengenalan Angka</title>
     <style>
         body {
             margin: 0;
@@ -38,24 +38,20 @@
             color: #fff;
             font-size: 16px;
             cursor: pointer;
-      
+
     </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap">
 </head>
 <body>
-   
-
-    <div class="text-center">
-        <p>Mengenal Angka</p>
-    </div>
+    <img src="img/img2.png" alt="" class="img-fluid mx-auto d-block" width="450" height="200">
 
     <div class="button-container">
-        <a href="halaman_baru.html"><button class="button">Tombol 1 (Atas)</button></a>
+        <a href="halaman_baru.html"><button class="button">Bahasa Indonesia</button></a>
     </div>
 
     <div class="header">
         <div class="button-container">
-            <button class="button" onclick="fungsiButton2()">Tombol 2 (Bawah)</button>
+            <button class="button" onclick="fungsiButton2()">Bahasa Inggris</button>
         </div>
     </div>
 
